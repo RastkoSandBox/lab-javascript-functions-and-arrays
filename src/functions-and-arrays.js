@@ -1,18 +1,105 @@
 // Iteration #1: Find the maximum
 
+// const maxOfTwoNumbers = (a, b) => {
+//   if (a > b) {
+//     return a;
+//   } else {
+//     return b;
+//   }
+// }
+
+// const res = maxOfTwoNumbers(5, 7)
+// console.log('res', res)
+
 // Iteration #2: Find longest word
-const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
+// const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
+
+// function longestWord(wordsArr) {
+
+//   let longest = wordsArr[0].length
+//   for (let i = 0; i < wordsArr.length; i++) {
+//     if (longest < wordsArr[i].length)
+//       longest = wordsArr[i]
+//   }
+//   return longest
+// }
+// let result = longestWord(words)
+// console.log(result)
 
 // Iteration #3: Calculate the sum
 
-const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
+// const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
+// function sumNumbers(numbersArr) {
+//   let sum = 0
+//   for (let i = 0; i < numbersArr.length; i++) {
+//     sum = sum + numbersArr[i]
+//   }
+//   return sum
+// }
+
+// let rezultat = sumNumbers(numbers)
+
+
 
 // Iteration #4: Calculate the average
+
 // Level 1: Array of numbers
-const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
+// const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
+
+// function avarageNumbers(numbersArr) {
+//   let avarage = 0
+//   for (let i = 0; i < numbersArr.length; i++) {
+//     avarage = avarage + numbersArr[i]
+//   }
+//   return avarage / numbersArr.length
+// }
+// let prosek = avarageNumbers(numbersAvg)
+// console.log('ovo je prosek', prosek)
+// console.log(`prosek je ${prosek}`)
+
+// const mixedArr = [6, 12, 'miami', 1, true, 'barca', '200', 'lisboa', 8, 10];
+
+// function avarageAll(arr) {
+
+//   let suma = 0
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === 'string') {
+//       suma = suma + arr[i].length
+//     }
+//     if (typeof arr[i] === 'boolean') {
+//       if (arr[i]) {
+//         suma = suma + 1
+//       }
+//     }
+//     if (typeof arr[i] === 'number') {
+//       suma = suma + arr[i]
+//     }
+//   }
+//   return suma / arr.length
+// }
+
+// const prosekReci = avarageAll(mixedArr)
+// console.log(prosekReci)
+
+
+
+
+
+
+
+
+
 
 // Level 2: Array of strings
 const wordsArr = ['seat', 'correspond', 'linen', 'motif', 'hole', 'smell', 'smart', 'chaos', 'fuel', 'palace'];
+
+
+
+
+
+
+
 
 // Iteration #5: Unique arrays
 const wordsUnique = [
@@ -26,8 +113,28 @@ const wordsUnique = [
   'poison',
   'communion',
   'simple',
-  'bring'
+  'bring',
+  ''
 ];
+
+// function uniquifyArray(arr) {
+
+//   let a = []
+//   for (let i = 0; i < arr.length; i++) {
+//     if (a.indexOf(arr[i]) === -1 && arr[i] !== '') {
+//       a.push(arr[i])
+//     }
+//   }
+//   return a
+// }
+
+// let unique = uniquifyArray(wordsUnique)
+// console.log(unique)
+
+
+
+
+
 
 // Iteration #6: Find elements
 const wordsFind = ['machine', 'subset', 'trouble', 'starting', 'matter', 'eating', 'truth', 'disobedience'];
@@ -46,6 +153,9 @@ const wordsCount = [
   'disobedience',
   'matter'
 ];
+
+
+
 
 // Iteration #8: Bonus
 
@@ -71,3 +181,7 @@ const matrix = [
   [20, 73, 35, 29, 78, 31, 90, 1, 74, 31, 49, 71, 48, 86, 81, 16, 23, 57, 5, 54],
   [1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48]
 ];
+
+
+
+
